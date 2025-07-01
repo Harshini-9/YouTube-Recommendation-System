@@ -481,7 +481,7 @@ class YouTubeRecommenderSystem:
 
 def main():
     """Main execution function"""
-    print("🎥 YouTube Video Recommendation System")
+    print("YouTube Video Recommendation System")
     print("=" * 50)
     
     # Generate synthetic dataset
@@ -527,7 +527,7 @@ def main():
             recommender.display_recommendations(user_id, method)
             input("\nPress Enter to continue to next recommendation...")
     
-    print("\n🎯 Recommendation System Demo Complete!")
+    print("\nRecommendation System Demo Complete!")
     print("=" * 50)
     
     return recommender, users_df, videos_df, interactions_df
