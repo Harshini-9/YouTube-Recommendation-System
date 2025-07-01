@@ -12,7 +12,7 @@
 
 ---
 
-## Overview {# overview}
+## Overview {#Overview}
 
 This is a comprehensive implementation of a **YouTube Video Recommendation System** that demonstrates multiple recommendation approaches using synthetic data. The system combines collaborative filtering, content-based filtering, and matrix factorization techniques to provide personalized video recommendations.
 
