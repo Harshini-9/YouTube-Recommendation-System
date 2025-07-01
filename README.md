@@ -1,18 +1,16 @@
 # YouTube-Recommendation-System
 
 ## Table of Contents
-1. [Overview](#overview)
-2. [Key Concepts and Technologies](#key-concepts)
-3. [Dataset Generation](#dataset-generation)
-4. [Recommendation Algorithms](#recommendation-algorithms)
-5. [Code Implementation Breakdown](#code-breakdown)
-6. [Mathematical Foundations](#mathematical-foundations)
-7. [Evaluation Metrics](#evaluation-metrics)
-8. [Visualization and Analysis](#visualization)
-
+1. Overview
+2. Key Concepts and Technologies
+3. Dataset Generation
+4. Recommendation Algorithms
+5. Code Implementation
+6. Mathematical Foundations
+7. Visualization and Analysis 
 ---
 
-## Overview {#Overview}
+## Overview 
 
 This is a comprehensive implementation of a **YouTube Video Recommendation System** that demonstrates multiple recommendation approaches using synthetic data. The system combines collaborative filtering, content-based filtering, and matrix factorization techniques to provide personalized video recommendations.
 
@@ -24,7 +22,7 @@ This is a comprehensive implementation of a **YouTube Video Recommendation Syste
 
 ---
 
-## Key Concepts and Technologies {#key-concepts}
+## Key Concepts and Technologies 
 
 ### 1. **Machine Learning Libraries**
 ```python
@@ -62,7 +60,7 @@ from sklearn.preprocessing import StandardScaler            # Feature scaling
 
 ---
 
-## Dataset Generation {#dataset-generation}
+## Dataset Generation 
 
 ### YouTubeDatasetGenerator Class
 
@@ -123,7 +121,7 @@ def generate_interactions(self, users_df, videos_df):
 
 ---
 
-## Recommendation Algorithms {#recommendation-algorithms}
+## Recommendation Algorithms 
 
 ### 1. **User-Based Collaborative Filtering**
 
@@ -232,7 +230,7 @@ hybrid_score(u, i) = w1 × cf_score(u, i) + w2 × cb_score(u, i) + w3 × svd_sco
 
 ---
 
-## Code Implementation Breakdown {#code-breakdown}
+## Code Implementation Breakdown 
 
 ### Class Structure
 
@@ -304,7 +302,7 @@ def _create_content_features(self):
 
 ---
 
-## Mathematical Foundations {#mathematical-foundations}
+## Mathematical Foundations 
 
 ### Similarity Metrics
 
@@ -394,7 +392,7 @@ F1 = 2 × (Precision × Recall) / (Precision + Recall)
 
 ---
 
-## Visualization and Analysis {#visualization}
+## Visualization and Analysis 
 
 ### Data Analysis Plots
 
